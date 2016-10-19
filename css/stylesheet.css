@@ -1,0 +1,236 @@
+html {
+  position: relative;
+  min-height: 100%;
+  background: url('../imgs/15.png') repeat;
+}
+
+@-webkit-keyframes visibility-top {
+  0%, 100% {
+    opacity: 1;
+  }
+/*  34.16667%, 100% {
+    opacity: 0;
+  }*/
+}
+
+@keyframes visibility-top {
+  0%, 100% {
+    opacity: 1;
+  }
+/*  34.16667%, 100% {
+    opacity: 0;
+  }*/
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: 'Raleway', sans-serif;
+  background: url('../imgs/15.png') repeat;
+}
+
+#intro{
+  border-radius: 13px;
+  background-color: rgba(9, 32, 71, 0.45);
+  border: solid 1px black;
+}
+
+#guardian{
+  border-radius: 13px;
+  background-color: rgba(9, 32, 71, 0.45);
+  border: solid 1px black;
+}
+
+#simulation{
+  border-radius: 13px;
+  background-color: rgba(9, 32, 71, 0.45);
+  border: solid 1px black;
+  text-align: center;
+  margin-left: 0;
+}
+
+#simulation > h3{
+  margin-left: 0;
+}
+
+.img-border{
+  border-radius: 13px;
+  background-color: rgba(9, 32, 71, 0.45);
+  padding: 16px;
+  border: solid 1px rgb(0, 0, 0);
+}
+
+
+.simulation{
+  border-radius: 13px;
+  background-color: rgba(9, 32, 71, 0.45);
+  padding: 8px;
+}
+
+p{
+  font-size: 1.65em;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-indent: 18px;
+}
+
+.container{
+  padding-top: 80px;
+  text-shadow: 1px, 1px, 0px, black;
+}
+
+.bg{
+  background: url('../imgs/bg.png') no-repeat center center fixed;
+  background-size:cover;
+  color: #000000;
+  border-bottom: solid 2px black;
+}
+
+
+hr{
+  border-top:solid 2px rgba(9, 32, 71, 0.45);;
+  box-shadow: 0px 1px 3px rgb(7, 11, 15);
+}
+
+h1{
+  font-family: 'Days One', sans-serif;
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 2px 2px 1px rgb(0, 20, 38);
+  text-align: center;
+}
+
+h2{
+  color: rgb(210, 210, 210) !important;
+  text-shadow: 1px 1px 1px rgb(0, 20, 38);
+  text-align: center;
+}
+
+h3{
+  font-size: 2.0em;
+  color: rgba(255, 255, 255, 0.55);
+  text-shadow: 1px 1px 1px rgb(0, 0, 22);
+  margin-left: 1vw;
+}
+
+h4{
+  font-size: 1.5em;
+  color: rgb(6, 30, 66);
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(0, 0, 22);
+}
+
+.jumbotron{
+  background-color: rgba(9, 32, 71, 0.35);
+  padding: 5%;
+  border: solid 1px rgb(0, 0, 0);
+  opacity: 1;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.navbar{
+  background-color: rgba(9, 32, 71, 0.45);
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.nav a{
+  font-size: 0.8em;
+  opacity: 1 !important;
+  color: rgb(213, 255, 255);
+}
+
+
+.navbar-custom {
+    height: 55px;
+    background-color: transparent;
+    border-radius:0;
+    font-size: 27px;
+    margin-bottom: 3px;
+    text-shadow: 1px 1px 0px #070F16;
+    -webkit-font-smoothing: antialiased;
+    cursor: auto;
+
+}
+
+.navbar-custom.top-nav-collapse {
+    border-bottom: 0px solid rgba(91, 151, 255, 0.3);
+    background-color: rgba(9, 32, 71, 0.65) !important;
+}
+
+
+
+.navbar-custom .navbar-nav{
+  padding-left: 15vw;
+  margin-top: 0px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+.tile{
+  background: url('../imgs/tile.png') repeat;
+}
+.tile2{
+  background: url('../imgs/tile2.png') repeat;
+}
+.tile3{
+  background: url('../imgs/tile3.png') repeat;
+}
+.tile4{
+  background: url('../imgs/tile4.png') repeat;
+}
+.tile5{
+  background: url('../imgs/tile5.png') repeat;
+}
+.tile6{
+  background: url('../imgs/tile6.png') repeat;
+}
+.tile7{
+  background: url('../imgs/tile7.png') repeat;
+}
+.tile8{
+  background: url('../imgs/tile8.png') repeat;
+}
+
+.tile16{
+  background: url('../imgs/16.png') repeat;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(9, 32, 71, 0.85);
+    background-color: rgba(135, 197, 255, 0.45);
+    border-left: solid 1px rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(9, 32, 71, 0.85);
+    background-color: rgba(61, 107, 150, 0.6);
+    border: solid 1px rgb(0, 0, 0);
+}
