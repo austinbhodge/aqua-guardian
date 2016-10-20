@@ -1,6 +1,6 @@
 #Aqua-Guardian  
 Innovating the concept of Life Guarding  
-[Aqua Guardian](https://austinhodge.github.io/aqua-guardian/ "Aqua Guardian")
+[Aqua Guardian](https://austinbhodge.github.io/aqua-guardian/ "Aqua Guardian")
 
 ![alt text][logo]
 
