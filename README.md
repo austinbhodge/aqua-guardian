@@ -1,6 +1,6 @@
 #Aqua-Guardian  
 Innovating the concept of Life Guarding  
-[Aqua Guardian](http://austinbhodge.com/aqua-guardian/ "Aqua Guardian")
+[Aqua Guardian](https://austinhodge.github.io/aqua-guardian/ "Aqua Guardian")
 
 ![alt text][logo]
 
@@ -48,7 +48,7 @@ Innovating the concept of Life Guarding
 ######Floatee Launcher -  
     Launches a floatee into the area of someone who is struggleing to stay surfaced.  
   
-  [logo]:https://github.com/haustin7/aqua-guardian/blob/gh-pages/imgs/ag300.png "Aqua Guardian"
-  [concept]: https://github.com/haustin7/aqua-guardian/blob/gh-pages/imgs/graphic.png "Concept"
-  [Design]: https://github.com/haustin7/aqua-guardian/blob/gh-pages/imgs/side.png "Side Rendering"
-  [Drone]: https://github.com/haustin7/aqua-guardian/blob/gh-pages/imgs/cir.png "Birds Eye View"
+  [logo]:https://github.com/austinbhodge/aqua-guardian/blob/gh-pages/imgs/ag300.png "Aqua Guardian"
+  [concept]: https://github.com/austinbhodge/aqua-guardian/blob/gh-pages/imgs/graphic.png "Concept"
+  [Design]: https://github.com/austinbhodge/aqua-guardian/blob/gh-pages/imgs/side.png "Side Rendering"
+  [Drone]: https://github.com/austinbhodge/aqua-guardian/blob/gh-pages/imgs/cir.png "Birds Eye View"
